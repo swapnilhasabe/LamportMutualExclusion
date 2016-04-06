@@ -1,6 +1,7 @@
 /**
  * Any class which provides the functionality of Total Order Broadcast *must* implement this interface.
  */
+ //Third layer in the application
 public interface TOBProvider extends MessageConsumer {
 	/**
 	 * Totally ordered broadcast the message m!
